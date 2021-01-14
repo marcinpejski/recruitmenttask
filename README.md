@@ -2,39 +2,39 @@
 
 Example application to show how to combine two data values fetched from two different data sources.
 
-##Based on
+## Based on
 - JDK 11
 - Spring Boot
 - maven
 - H2
 - Mockito
 
-##Example usage
+## Example usage
 Use GET HTTP method on REST endpoint:
 
 ```combination/v1/decimal```
 
 to fetch random combined number
 
-#Requirements
+# Requirements
 - JDK 11
 
-##Build
+## Build
 
 ```mvn clean install```
 
-###Testing
+### Testing
 
 ```mvn verify```
 
-###Skip Integration Tests
+### Skip Integration Tests
 
 ```mvn vertify -DskipTests=true```
 
-###Skip Integration Tests
+### Skip Integration Tests
 
 ```mvn vertify -DskipUTs=true```
 
-###Skip Unit Tests
+### Skip Unit Tests
 
 ```mvn vertify -DskipUTs=true```
