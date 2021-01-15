@@ -11,8 +11,8 @@ public abstract class DataCombinator<T, R> {
     protected final List<R> decimalNumberProviders;
     protected final DataOperator<T> combinationOperator;
 
-    protected DataCombinator(@NonNull List<R> decimalNumberProviders, @NonNull DataOperator<T> combinationOperator) {
-        this.decimalNumberProviders = decimalNumberProviders;
+    protected DataCombinator(@NonNull List<R> dataProviders, @NonNull DataOperator<T> combinationOperator) {
+        this.decimalNumberProviders = dataProviders;
         this.combinationOperator = combinationOperator;
     }
 
